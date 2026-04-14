@@ -4,5 +4,6 @@
   ],
   "buildCommand": "pnpm run build",
   "outputDirectory": "dist",
-  "installCommand": "pnpm install"
+  "installCommand": "npm install -g pnpm@9.15.0 && pnpm install",
+  "framework": "vite"
 }
